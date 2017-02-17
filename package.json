@@ -1,0 +1,23 @@
+{
+  "name": "boilerplate-workshops-node-js",
+  "version": "1.0.0",
+  "description": "Boilerplate for workshops on Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinberthelot/boilerplate-workshops-node-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvinberthelot/boilerplate-workshops-node-js/issues"
+  },
+  "homepage": "https://github.com/alvinberthelot/boilerplate-workshops-node-js#readme"
+}
