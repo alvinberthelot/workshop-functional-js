@@ -4,17 +4,21 @@
   "description": "Boilerplate for workshops on Node.js.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node index",
+    "test": "mocha",
+    "lint": "eslint index.js test/**; exit 0"
   },
   "devDependencies": {
     "chai": "3.5.0",
+    "eslint": "3.15.0",
+    "eslint-plugin-mocha": "4.8.0",
     "mocha": "3.2.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alvinberthelot/boilerplate-workshops-node-js.git"
   },
-  "author": "",
+  "author": "Alvin Berthelot",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alvinberthelot/boilerplate-workshops-node-js/issues"
