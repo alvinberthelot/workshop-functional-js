@@ -112,3 +112,23 @@ After finish this exercise, please commit all your files.
 
   git commit -m "Exercise 4"
 
+### Exercise 5
+
+With Lodash we want to facilitate the visualization of the calculate property "distance" and for all the checkpoints.
+
+- We want to add an unit for the distances, add "m" for distances greater or equal than 1, otherwise add "cm" and multiply by 100. For examples 1.25 should display "1.25 m" and 0.72 should display "72 cm".
+
+- We want to round up calculate property "distance" with a precision of 2 decimals.
+
+- We want to sort checkpoints with calculate property "distance" in an ascending way.
+
+Implement theses new features and be careful with the order to apply them.
+
+Please make all tests pass.
+
+After finish this exercise, please commit all your files.
+
+  git add .
+
+  git commit -m "Exercise 5"
+
