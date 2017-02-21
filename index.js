@@ -1,1 +1,3 @@
-console.log('Hello world');
+let chalk = require('chalk');
+
+console.log(chalk.green('Hello world'));
