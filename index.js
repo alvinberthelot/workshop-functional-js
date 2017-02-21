@@ -1,3 +1,3 @@
-let chalk = require('chalk');
+let program = require('./src/program');
 
-console.log(chalk.green('Hello world'));
+program.run();
