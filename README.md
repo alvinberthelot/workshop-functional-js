@@ -59,3 +59,18 @@ After finish this exercise, please commit all your files.
   git add .
 
   git commit -m "Exercise 1"
+
+### Exercise 2
+
+1. The function +transformCheckpoint+ in file index.js is so impure, please change it to become a pure function.
+2. Update test created in exercise 1.
+3. Write a test to be sure that output has a different reference with input.
+
+Please make all tests pass.
+
+After finish this exercise, please commit all your files.
+
+  git add .
+
+  git commit -m "Exercise 2"
+
