@@ -32,7 +32,7 @@ Please verify that after all exercises the linter should not return errors.
 
 ### Exercise 1
 
-Write a simple test to verify that a transformation has been done with the function +transformCheckpoint+ in file index.js.
+Write a simple test to verify that a transformation has been done with the function +transformCheckpoint+ in file program.js.
 
 You can use this example data to run your test :
 
@@ -62,7 +62,7 @@ After finish this exercise, please commit all your files.
 
 ### Exercise 2
 
-1. The function +transformCheckpoint+ in file index.js is so impure, please change it to become a pure function.
+1. The function +transformCheckpoint+ in file program.js is so impure, please change it to become a pure function.
 
 2. Update test created in exercise 1.
 
@@ -82,7 +82,7 @@ Our program is better because we use more pure functions, but now the display in
 
 	npm start
 
-Please update the function +run+ in file index.js.
+Please update the function +run+ in file program.js.
 
 1. The display in CLI should be the same than before.
 
@@ -95,4 +95,20 @@ After finish this exercise, please commit all your files.
   git add .
 
   git commit -m "Exercise 3"
+
+### Exercise 4
+
+Now we want to use Lodash to manipulate object in a functionnal programming way.
+
+1. Please install Lodash for the project.
+
+2. Use simple Lodash functions to refactor function +showCheckpoint+ in file program.js.
+
+Please make all tests pass.
+
+After finish this exercise, please commit all your files.
+
+  git add .
+
+  git commit -m "Exercise 4"
 
