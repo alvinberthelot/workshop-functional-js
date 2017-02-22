@@ -1,6 +1,6 @@
-# boilerplate-workshops-node-js
+# workshop-functional-js
 
-Boilerplate for workshops on Node.js.
+Workshop to learn basic functional programming in JavaScript.
 
 ## Commands
 

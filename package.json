@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-workshops-node-js",
+  "name": "workshop-functional-js",
   "version": "1.0.0",
-  "description": "Boilerplate for workshops on Node.js.",
+  "description": "Workshop to learn basic functional programming in JavaScript.",
   "main": "index.js",
   "scripts": {
     "start": "node index",
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alvinberthelot/boilerplate-workshops-node-js.git"
+    "url": "git+https://github.com/alvinberthelot/workshop-functional-js.git"
   },
   "author": "Alvin Berthelot",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alvinberthelot/boilerplate-workshops-node-js/issues"
+    "url": "https://github.com/alvinberthelot/workshop-functional-js/issues"
   },
-  "homepage": "https://github.com/alvinberthelot/boilerplate-workshops-node-js#readme"
+  "homepage": "https://github.com/alvinberthelot/workshop-functional-js#readme"
 }
