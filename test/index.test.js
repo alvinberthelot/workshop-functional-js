@@ -1,10 +1,14 @@
 var expect = require('chai').expect;
 
+var transformCheckpoint = require('../src/program').transformCheckpoint;
 
-describe('Hello World', function() {
 
-  it('True should be true', function() {
-    expect(true).to.be.true;
+
+
+describe('Function transformCheckpoint', function() {
+
+  it('Function transformCheckpoint without parameter should return false', function() {
+    expect(transformCheckpoint()).to.be.false;
   });
 
 });
