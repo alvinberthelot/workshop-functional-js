@@ -92,7 +92,7 @@ Please update the function `run` in file **_src/program.js_**.
 
 1. The display in CLI should be the same than before.
 
-2. Use methods from Array.prototype to do it in a functional programing way.
+2. Use methods from Array.prototype to do it in a functional programming way.
 
 Please make all tests pass.
 
