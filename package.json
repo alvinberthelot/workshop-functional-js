@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "mocha",
-    "lint": "eslint index.js test/**; exit 0"
+    "test": "mocha test/**",
+    "lint": "eslint index.js src/** test/**; exit 0;"
   },
   "dependencies": {
     "chalk": "1.1.3"

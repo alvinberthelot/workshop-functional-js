@@ -120,7 +120,7 @@ let getCheckpoints = () => [
     services: null,
     state: 'disconnected'
   }
-]
+];
 
 module.exports = {
   getCheckpoints: getCheckpoints
