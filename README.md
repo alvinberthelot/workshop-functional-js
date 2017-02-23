@@ -120,11 +120,11 @@ After finish this exercise, please commit all your files.
 
 ### Exercise 5
 
-With Lodash we want to facilitate the visualization of the calculate property "distance" and for all the checkpoints.
+With Lodash we want to facilitate the visualization of the calculate property "distance" for all the checkpoints.
 
 - We want to add an unit for the distances, add "m" for distances greater or equal than 1, otherwise add "cm" and multiply by 100. For examples 1.25 should display "1.25 m" and 0.72 should display "72 cm".
 
-- We want to round up calculate property "distance" with a precision of 2 decimals.
+- We want to round calculate property "distance" with a precision of 2 decimals. For examples 0.3421673604634194 should become 0.34 or 10.467388920465797 should become 10.47.
 
 - We want to sort checkpoints with calculate property "distance" in an ascending way.
 
