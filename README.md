@@ -70,7 +70,9 @@ After finish this exercise, please commit all your files.
 
 2. Update test created in exercise 1.
 
-3. Write a test to be sure that output has a different reference with input.
+3. Write a test to be sure that output has a different reference than input.
+
+:point_right: [function `.equal`](http://chaijs.com/api/bdd/#method_equal) from Chai should help you.
 
 Please make all tests pass.
 
