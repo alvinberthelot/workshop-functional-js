@@ -32,9 +32,11 @@ Please verify that after all exercises the linter should not return errors.
 
 ### Exercise 1
 
-Write a simple test in file **_test/program.test.js_** to verify that a transformation has been done with the function `transformCheckpoint` in file **_src/program.js_**.
+Write a simple test in file **_test/program.test.js_** to verify that the parameter is mutated with the function `transformCheckpoint` in file **_src/program.js_**.
 
-You can use this example data to run your test :
+:point_right: [function `.eql`](http://chaijs.com/api/bdd/#method_eql) from Chai should help you.
+
+You could use this example data to run your test :
 
 ```javascript
 {
