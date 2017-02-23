@@ -108,7 +108,7 @@ Now we want to use Lodash to manipulate object (as a collection) in a functionna
 
 1. Please install Lodash for the project.
 
-2. Use simple Lodash functions to refactor function `showCheckpoint` in file **_src/program.js_**.
+2. Use simple Lodash functions to refactor function `showCheckpoint` in file **_src/program.js_**, especially the for loop.
 
 Please make all tests pass.
 
