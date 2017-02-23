@@ -104,7 +104,7 @@ After finish this exercise, please commit all your files.
 
 ### Exercise 4
 
-Now we want to use Lodash to manipulate object in a functionnal programming way.
+Now we want to use Lodash to manipulate object (as a collection) in a functionnal programming way.
 
 1. Please install Lodash for the project.
 
