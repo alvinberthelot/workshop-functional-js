@@ -44,8 +44,9 @@ describe('Function transformCheckpoint', function() {
       services: null,
       state: 'outofcontrol'
     };
-    transformCheckpoint(input1);
-    expect(input1).not.to.be.eql(input2);
+    expect(input1).to.be.eql(input2);
+    var input3 = transformCheckpoint(input1);
+    expect(input1).not.to.be.equal(input3);
   });
 
 });
