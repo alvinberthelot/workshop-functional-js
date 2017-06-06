@@ -68,9 +68,11 @@ After finish this exercise, please commit all your files.
 
 1. The function `transformCheckpoint` in file **_src/program.js_** is so impure, please change it to become a pure function.
 
-2. Update test created in exercise 1.
+2. Update test created in exercise 1 if necessary.
 
 3. Write a test to be sure that output has a different reference than input.
+
+:point_right: [function `.cloneDeep`](https://lodash.com/docs/4.17.4#cloneDeep) from Lodash should help you.
 
 :point_right: [function `.equal`](http://chaijs.com/api/bdd/#method_equal) from Chai should help you.
 
@@ -106,9 +108,7 @@ After finish this exercise, please commit all your files.
 
 Now we want to use Lodash to manipulate object (as a collection) in a functionnal programming way.
 
-1. Please install Lodash for the project.
-
-2. Use simple Lodash functions to refactor function `showCheckpoint` in file **_src/program.js_**, especially the for loop.
+Use simple Lodash functions to refactor function `showCheckpoint` in file **_src/program.js_**, especially the for loop.
 
 Please make all tests pass.
 
